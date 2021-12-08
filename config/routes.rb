@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  get '/signup' => users#new
+  get '/signup', to: 'users#new'
   
   resources :concerts
   resources :bands
